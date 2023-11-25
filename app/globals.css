@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-background-rgb: 15, 15, 15;
+  --dark-text-color-rgb: 237, 237, 237;
+}
+
+body {
+  background-color: rgb(var(--dark-background-rgb));
+  color: rgb(var(--dark-text-color-rgb));
+}
