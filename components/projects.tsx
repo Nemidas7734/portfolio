@@ -1,15 +1,21 @@
 export default function Projects() {
     const projects = [
         {
+            title: 'Cloud-Monitoring-App',
+            titleExplaination: '•Cloud Monitoring App, a dynamic solution for real-time data analysis',
+            description: 'This application seamlessly fetches crucial statistics through AWS APIs, providing comprehensive insights into cloud infrastructure. Leveraging the efficiency of Server-Side JavaScript, the Node.js API orchestrates data retrieval, ensuring up-to-the-minute accuracy. The apps sleek dashboard not only captures statistical nuances but elegantly displays them for intuitive comprehension    ',
+            tech: ['NextJs', 'NodeJS', 'TypeScript', 'Shadcn', 'ExpressJS', 'AWS-SDK', 'GitHub']
+        },
+        {
             title: 'E-Commerce Website',
             titleExplaination: 'A Fully functional Ecommerce MERN Website with Payment functionality',
             description: 'Front-End is handled by React.js and State management is done using Context API  Added Public as well as Private Routes using React. Added CRUD functionality on Products and Categories in Admin Dashboard. Added Pagination and Filtering in the Back-End. Products are stored in MongoDB Atlas using Mongoose and Express.js            ',
             tech: ['ReactJS', 'NodeJS', 'MongoDB', 'Mongoose', 'ExpressJS', 'Bootstrap', 'SEO']
         },
         {
-            title: 'Hotel Management System',
-            description: 'The Java project I developed is a hotel management system that aims to provide acomprehensive solution for managing various aspects of a hotel, such as room reservations, guest information, billing, and inventory management.',
-            tech: ['Java', 'AWT', 'Swing', 'JDBC', 'MySQL']
+            title: 'AI- Summarizer',
+            description: 'Web app created using React.js, Tailwind CSS, and GPT-4 API. Advanced RTK Query for API requests that fire on condition. User History saved via local storage and implemented copy to clipboard.',
+            tech: ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'Rapid API', 'Vercel']
         },
     ];
 
