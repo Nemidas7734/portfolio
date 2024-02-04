@@ -1,10 +1,10 @@
 export default function Projects() {
     const projects = [
         {
-            title: 'Cloud-Monitoring-App',
-            titleExplaination: '•Cloud Monitoring App, a dynamic solution for real-time data analysis',
-            description: 'This application seamlessly fetches crucial statistics through AWS APIs, providing comprehensive insights into cloud infrastructure. Leveraging the efficiency of Server-Side JavaScript, the Node.js API orchestrates data retrieval, ensuring up-to-the-minute accuracy. The apps sleek dashboard not only captures statistical nuances but elegantly displays them for intuitive comprehension    ',
-            tech: ['NextJs', 'NodeJS', 'TypeScript', 'Shadcn', 'ExpressJS', 'AWS-SDK', 'GitHub']
+            title: 'Nexus',
+            titleExplaination: 'Nexus is developed during my final year of computer engineering studies',
+            description: 'This innovative project focuses on the early detection and classification of orthopedic conditions, specifically knee osteoarthritis and scoliosis, utilizing machine learning techniques. ',
+            tech: ['NextJs', 'NodeJS', 'TypeScript','CNN', 'Tailwind CSS','GitHub']
         },
         {
             title: 'E-Commerce Website',
