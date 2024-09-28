@@ -1,9 +1,14 @@
 export default function Projects() {
     const projects = [
         {
+            title: 'MUA- Makeup Artist Booking Platform',
+            description: ' Spearheaded the development of a responsive web application, optimizing the platform’s performance for both makeup artists and users. Engineered and deployed a scalable web architecture, capable of supporting a growing number of artists and user interactions, ensuring robust and reliable service even under increased demand.',
+            tech: ['NextJs', 'TypeScript', 'Firebase', 'Zod', 'Zustand']
+        },
+        {
             title: 'Nexus',
             titleExplaination: 'Nexus is developed during my final year of computer engineering studies',
-            description: 'This innovative project focuses on the early detection and classification of orthopedic conditions, specifically knee osteoarthritis and scoliosis, utilizing machine learning techniques. ',
+            description: ' Developed a web application that facilitates the early diagnosis of knee osteoarthritis and scoliosis through the analysis of X-ray images, achieving exceptional model accuracy rates of 99.65% and 96%, respectively. Designed and implemented an intuitive user interface, allowing users to easily upload X-ray images and receive diagnostic results in a streamlined and user-friendly manner.',
             tech: ['NextJs', 'NodeJS', 'TypeScript','CNN', 'Tailwind CSS','GitHub']
         },
         {
@@ -11,11 +16,6 @@ export default function Projects() {
             titleExplaination: 'A Fully functional Ecommerce MERN Website with Payment functionality',
             description: 'Front-End is handled by React.js and State management is done using Context API  Added Public as well as Private Routes using React. Added CRUD functionality on Products and Categories in Admin Dashboard. Added Pagination and Filtering in the Back-End. Products are stored in MongoDB Atlas using Mongoose and Express.js            ',
             tech: ['ReactJS', 'NodeJS', 'MongoDB', 'Mongoose', 'ExpressJS', 'Bootstrap', 'SEO']
-        },
-        {
-            title: 'AI- Summarizer',
-            description: 'Web app created using React.js, Tailwind CSS, and GPT-4 API. Advanced RTK Query for API requests that fire on condition. User History saved via local storage and implemented copy to clipboard.',
-            tech: ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'Rapid API', 'Vercel']
         },
     ];
 
